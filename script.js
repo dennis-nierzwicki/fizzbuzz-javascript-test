@@ -3,7 +3,7 @@ function getNum() {
     let num = NaN; // Init number variable.
     // We want to verify the user is giving us a number.
     while (!Number.isInteger(num)) {
-        let num = parseInt(prompt("Please enter your number!"));
+        num = parseInt(prompt("Please enter your number!"));
         if (Number.isInteger(num)) {
             // If we get a number, return it.
             return num;
